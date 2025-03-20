@@ -4,21 +4,44 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#A8D8B9"
     tools:context=".splashScreenn">
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Button"
-        tools:layout_editor_absoluteX="79dp"
-        tools:layout_editor_absoluteY="190dp" />
-
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/imageView5"
+        android:layout_width="176dp"
+        android:layout_height="199dp"
+        android:src="@drawable/logo"
+        tools:layout_editor_absoluteX="117dp"
+        tools:layout_editor_absoluteY="220dp" />
+
+    <TextView
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        tools:layout_editor_absoluteX="122dp"
-        tools:layout_editor_absoluteY="261dp"
-        tools:srcCompat="@tools:sample/avatars" />
+        android:layout_marginStart="173dp"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="181dp"
+        android:layout_marginBottom="228dp"
+        android:fontFamily="@font/mochiy_pop_p_one"
+        android:text="Caretail"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.405"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5"
+        app:layout_constraintVertical_bias="0.128" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="188dp"
+        android:text="🐾 Happy Pets, Happy Hearts!"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        tools:layout_editor_absoluteX="70dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
